@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     nCentimeters = Float.parseFloat(oTextInches.getText().toString()) * 2.54f;
                 }catch(Exception e){
-//                    Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
                 oTextCentimeters.setText(nCentimeters.toString());
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 try{
                     nInches = Float.parseFloat(oTextCentimeters.getText().toString())/ 2.54f;
                 }catch(Exception e){
-//                    Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), e.toString(), Toast.LENGTH_SHORT).show();
                     e.printStackTrace();
                 }
                 oTextInches.setText(nInches.toString());
