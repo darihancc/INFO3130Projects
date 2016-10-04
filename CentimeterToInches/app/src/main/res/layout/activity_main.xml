@@ -16,7 +16,8 @@
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +27,8 @@
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="66dp" />
+        android:layout_marginTop="66dp"
+        style="@style/TextView.Red"/>
 
     <EditText
         android:layout_width="wrap_content"
